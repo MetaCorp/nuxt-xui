@@ -104,6 +104,9 @@
               <i class="fa fa-github"></i>
             </a>
           </p>
+          <li v-for="car in postQuery.data.posts">
+            post.title
+          </li>
         </div>
       </div>
     </footer>
@@ -112,7 +115,18 @@
 </template>
 
 <script>
+import postQuery from '~/apollo/queries/postQuery'
+
 export default {
+  apollo: {
+    postQuery: {
+      prefetch: true,
+      query: postQuery,
+      variables () {
+        return { username: 'szabaturachristian' }
+      }
+    }
+  }
 }
 </script>
 

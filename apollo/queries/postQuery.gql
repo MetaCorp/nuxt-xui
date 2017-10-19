@@ -1,0 +1,14 @@
+query PostQuery($username: String!, $limit: Int) {
+  posts(username: $username, limit: $limit) {
+    title
+    firstPublishedAt
+    url
+    imageUrl
+    subtitle
+  }
+  user(username: $username) {
+    username
+    name
+    bio
+  }
+}

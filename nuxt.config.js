@@ -19,12 +19,18 @@ module.exports = {
   loading: { color: '#3B8070' },
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/apollo',
     'xui-module'
   ],
   manifest: {
     name: 'My Nuxt App',
     lang: 'en',
     theme_color: '#3B8070'
+  },
+  apollo: {
+    networkInterfaces: {
+      default: '~/apollo/network-interfaces/default.js'
+    }
   },
   /*
   ** Build configuration

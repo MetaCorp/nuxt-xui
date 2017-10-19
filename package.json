@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/apollo": "^2.1.1",
     "@nuxtjs/pwa": "^1.0.2",
     "nuxt": "^1.0.0-rc11",
     "xui-module": "^0.1.0"
