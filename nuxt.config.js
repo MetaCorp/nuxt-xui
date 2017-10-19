@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   /*
   ** Headers of the page
@@ -45,11 +43,6 @@ module.exports = {
     */
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
-        // const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader')
-        // vueLoader.options.loaders.scss = 'vue-style-loader!css-loader!sass-loader?' + JSON.stringify({
-        //   includePaths: [path.resolve(__dirname), 'node_modules']
-        // })
-
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
