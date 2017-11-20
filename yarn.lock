@@ -2690,6 +2690,10 @@ hosted-git-info@^2.1.4:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
 
+hover.css@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/hover.css/-/hover.css-2.2.1.tgz#11d81525f7a8fa33b564fc322c07b454b6bc51a0"
+
 html-comment-regex@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
@@ -6053,13 +6057,14 @@ xtend@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
-xui-module@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/xui-module/-/xui-module-0.1.0.tgz#48787d90d49006bc42ccc8c91f6d2b6e3dd83457"
+xui-module@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/xui-module/-/xui-module-0.1.4.tgz#002b15a4076ef314c3fed7e255741efd51751e41"
   dependencies:
     animate.css "^3.5.2"
     bulma "^0.5.3"
     headroom.js "^0.9.4"
+    hover.css "^2.2.1"
     mdi "^2.0.46"
     vue-in-viewport-directive "^1.1.4"
     vue-scrollactive "^0.4.5"

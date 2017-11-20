@@ -13,3 +13,5 @@ dist
 # PWA
 sw.*
 workbox-*
+
+.DS_store

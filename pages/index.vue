@@ -2,7 +2,7 @@
   <div>
     <section id="home" class="hero is-info is-fullheight" v-in-viewport.once>
       <!-- Hero header: will stick at the top -->
-      <div class="hero-head animated fadeIn inview1 delay-2" v-headroom>
+      <div class="hero-head animated fadeIn inview1 delay-1-6" v-headroom>
         <nav class="navbar">
           <div class="navbar-brand">
             <a class="navbar-item" href="http://bulma.io">
@@ -16,7 +16,7 @@
             </button>
           </div>
           
-          <scrollactive class="navbar-menu">
+          <scrollactive class="navbar-menu" :offset="0">
             <div class="navbar-end">
               <a href="#home" class="scrollactive-item nav-item is-active">
                 Home
@@ -28,7 +28,7 @@
                 Documentation
               </a>
               <span class="nav-item">
-                <a class="button is-primary is-inverted">
+                <a class="button is-primary is-inverted hvr-grow-rotate" href="https://github.com/MetaCorp/xui-module" target="_blank">
                   <span class="icon">
                     <i class="mdi mdi-home"></i>
                   </span>
@@ -43,18 +43,18 @@
 
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title is-1 animated fadeInDown inview3 delay-1-2">
-            Title
+        <div class="container has-text-centered hvr-bounce-in">
+          <h1 class="title is-1 animated fadeInDown inview3 delay-0-8">
+            Xui-module
           </h1>
-          <h2 class="subtitle animated fadeInUp inview3 delay-1-4">
-            Subtitle
+          <h2 class="subtitle animated fadeInUp inview3 delay-1">
+            Light module to help design websites with Nuxt.
           </h2>
         </div>
       </div>
 
       <!-- Hero footer: will stick at the bottom -->
-      <div class="hero-foot animated bounceInUp inview1 delay-3">
+      <div class="hero-foot animated bounceInUp inview1 delay-2-6">
         <nav class="tabs">
           <div class="container">
             <ul>
